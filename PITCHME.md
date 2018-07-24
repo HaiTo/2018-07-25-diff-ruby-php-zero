@@ -103,12 +103,6 @@ class K {
 Rubyの世界ではほぼ全てがObjectなので、よりOOPを強く意識することになる。  
 > そしてOOPとは何かを人は永遠に問い続ける  
 
-関数も一級市民なので、PHPと同じように関数を変数に束縛もできる
-```
-$f = function(arg){}
-a = ->(arg) {}
-```
-
 ---
 ## Rubyist からみたPHP黒魔術編
 ```ruby
@@ -138,9 +132,7 @@ str.haito? #=> true
 ```
 
 特にStringとかArray、Hashに対する拡張がエグい数ある  
-一度慣れるとRubyで用意されているメソッドなのかRailsが拡張しているのか考えなくなるので  
-普段遣いでもおもむろに `require 'active_support/core_ext'` をしたりする  
-
+一度慣れるとRubyで用意されているメソッドなのかRailsが拡張しているのか考えなくなる  
 
 ---
 
