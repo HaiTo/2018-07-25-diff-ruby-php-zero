@@ -14,14 +14,14 @@
 
 ## Abount me
 
-Name: HaiTo
-2014/5 : HaiTo.join(Sansan, state: :intern)
-2015/4 : HaiTo.change(state: :employee)
-2017/1 : HaiTo.change(job: MoneyForward)
-2018/6 : HaiTo->changeJob(Mercari)
-
-Hobby: Game (League of Legends)
-
+Name: HaiTo  
+2014/5 : HaiTo.join(Sansan, state: :intern)  
+2015/4 : HaiTo.change(state: :employee)  
+2017/1 : HaiTo.change(job: MoneyForward)  
+2018/6 : HaiTo->changeJob(Mercari)  
+  
+Hobby: Game (League of Legends)  
+  
 ---
 
 ## Rubyist からみたPHP初歩編
