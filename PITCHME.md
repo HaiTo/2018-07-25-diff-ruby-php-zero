@@ -29,13 +29,12 @@ Hobby: Game (League of Legends)
 receiver.method(args)
 Klass.new(args)
 ```
-@[1]
 
 ```php
 $receiver->method(args)
 new Klass(args)
 ```
-@[1]
+@[1, 3]
 
 ---
 
@@ -45,12 +44,11 @@ new Klass(args)
 receiver.method(args)
 Klass.new(args)
 ```
-@[2]
 
 ```php
 $receiver->method(args)
 new Klass(args)
 ```
-@[2]
+@[2, 4]
 
 ---
