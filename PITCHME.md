@@ -30,6 +30,7 @@ receiver.method(args)
 Klass.new(args)
 ```
 @[1]
+
 ```php
 $receiver->method(args)
 new Klass(args)
@@ -45,6 +46,7 @@ receiver.method(args)
 Klass.new(args)
 ```
 @[2]
+
 ```php
 $receiver->method(args)
 new Klass(args)
