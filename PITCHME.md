@@ -169,7 +169,9 @@ func(age: 10, name: 'HaiTo')
 順序考慮不要の引数。 `:` の後にデフォルト値も書けて、書くと `not required` になる  
 phpだと `$options['age']` みたいに受け取るしかなくて明示性が低くて辛い。  
 わりと普通にほしい。  
-> DataTypeを作るとかもあるけど……
+> DataTypeを作るとかもあるけど……Airbrake.configure do |config|
+  config.api_key = 'your_key_here'
+end
 
 ---
 
@@ -177,8 +179,7 @@ phpだと `$options['age']` みたいに受け取るしかなくて明示性が�
 - そんなRubyもPHPも違いがない。表面的には書き心地の問題があるがその程度。重篤ではない。
 - ただPHPはTypeDeclarationがある！やった！
 - RubyもPHPもLightweightLanguageとしてGoとかRustとは違った美味しさで戦っていこう
-- つまりPHPが書けるならRubyも書けるので転職時にあんまり気にしなくて良さそう
-
+- つまりPHPが書けるならRubyも書けるのでそこは実際には障壁にならなさそう
 
 
 
