@@ -9,6 +9,7 @@
 
 ## $ diff ruby php //-> ?0
 ### Rubyist の車窓から
+
 面白いスライドが作れなかったので  
 当たり障りないdiffの話をします  
 
@@ -184,6 +185,5 @@ end
 - RubyもPHPもLightweightLanguageとしてGoとかRustとは違った美味しさで戦っていこう
 - つまりPHPが書けるならRubyも書けるのでそこは実際には障壁にならなさそう
 - つまりRubyistも採用できるぞ！やったね！
-
 
 
