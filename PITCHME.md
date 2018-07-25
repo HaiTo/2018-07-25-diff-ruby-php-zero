@@ -12,7 +12,7 @@
 
 ---
 
-## Abount me
+## About me
 
 Name: HaiTo  
 2014/5 : HaiTo.join(Sansan, state: :intern)  
