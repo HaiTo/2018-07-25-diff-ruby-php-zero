@@ -7,8 +7,10 @@
 
 ---
 
-## $ diff ruby php //-> 0
+## $ diff ruby php //-> ?0
 ### Rubyist の車窓から
+面白いスライドが作れなかったので  
+当たり障りないdiffの話をします  
 
 ---
 
@@ -101,7 +103,7 @@ class K {
 ```
 1はリテラルながらもIntegerClassのInstanceで、 + もただのメソッド(語弊がある)  
 Rubyの世界ではほぼ全てがObjectなので、よりOOPを強く意識することになる。  
-> そしてOOPとは何かを人は永遠に問い続ける  
+> そしてOOPとは何かを人は永遠に問い続けることになるのだ  
 
 ---
 ## Rubyist からみたPHP黒魔術編
@@ -116,7 +118,7 @@ ActiveSupport/core-extがさいつよの例。書き心地がとても良くな�
 
 ---
 
-## 黒魔術たち
+## AS/core-extの黒魔術たち
 
 ```ruby
 hs = {name: 'haito', age: :secret}
@@ -128,6 +130,7 @@ str.linux? #=> false
 str.haito? #=> true
 
 [1,2].many? #=> true
+[1,2].many?(&:odd?) #=> false
 [1].many? #=> false
 ```
 
@@ -180,7 +183,7 @@ end
 - ただPHPはTypeDeclarationがある！やった！
 - RubyもPHPもLightweightLanguageとしてGoとかRustとは違った美味しさで戦っていこう
 - つまりPHPが書けるならRubyも書けるのでそこは実際には障壁にならなさそう
-
+- つまりRubyistも採用できるぞ！やったね！
 
 
 
