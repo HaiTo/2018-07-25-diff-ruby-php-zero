@@ -120,7 +120,7 @@ ActiveSupport/core-extがさいつよの例。書き心地がとても良くな�
 
 ```ruby
 hs = {name: 'haito', age: :secret}
-hs.to_query
+hs.to_query #=> "name=haito&age=secret"
 
 str = 'haito'.inquiry
 str #=> 'haito'
@@ -169,6 +169,7 @@ func(age: 10, name: 'HaiTo')
 順序考慮不要の引数。 `:` の後にデフォルト値も書けて、書くと `not required` になる  
 phpだと `$options['age']` みたいに受け取るしかなくて明示性が低くて辛い。  
 わりと普通にほしい。  
+> DataTypeを作るとかもあるけど……
 
 ---
 
