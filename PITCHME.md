@@ -25,6 +25,8 @@ Name: HaiTo
   
 Hobby: Game (League of Legends)  
   
+PHP勉強会初参加ですん  
+  
 ---
 
 ## Rubyist からみたPHP初歩編
